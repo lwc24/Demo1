@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <declare-styleable name="LoadingButton">
+        <attr name="bg_drawable" format="reference" />
+        <attr name="but_text" format="string" />
+        <attr name="text_color" format="color" />
+        <attr name="text_size" format="dimension|reference" />
+    </declare-styleable>
+</resources>
